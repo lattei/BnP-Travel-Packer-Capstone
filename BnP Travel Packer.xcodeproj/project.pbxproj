@@ -7,18 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9359B01A2A83226B000E4DDA /* NewTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359B0192A83226B000E4DDA /* NewTripView.swift */; };
+		9359B01C2A834FFE000E4DDA /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359B01B2A834FFE000E4DDA /* TitleRow.swift */; };
+		9359B0202A856411000E4DDA /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359B01F2A856411000E4DDA /* TripDetailView.swift */; };
+		93845AD42A7B127200AB4360 /* BottomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93845AD32A7B127200AB4360 /* BottomTabView.swift */; };
+		93845AF62A7CD7DA00AB4360 /* GradientAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93845AF52A7CD7DA00AB4360 /* GradientAnimation.swift */; };
+		93845B0B2A7D57CB00AB4360 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93845B0A2A7D57CB00AB4360 /* LocationService.swift */; };
+		938647B02A8B08DB00D706DD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938647AF2A8B08DB00D706DD /* Launch Screen.storyboard */; };
+		93A0F6342A7E2D5E000E4A92 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93A0F6332A7E2D5E000E4A92 /* GoogleService-Info.plist */; };
+		93A0F6372A7E2F55000E4A92 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 93A0F6362A7E2F55000E4A92 /* FirebaseFirestore */; };
+		93A0F6392A7E2F55000E4A92 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 93A0F6382A7E2F55000E4A92 /* FirebaseFirestoreSwift */; };
+		93A0F63B2A8056A1000E4A92 /* TripManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F63A2A8056A1000E4A92 /* TripManager.swift */; };
+		93A0F63F2A82A19C000E4A92 /* NewTripForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F63E2A82A19C000E4A92 /* NewTripForm.swift */; };
+		93A0F6412A82A223000E4A92 /* TripList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F6402A82A223000E4A92 /* TripList.swift */; };
+		93A0F6432A82B9FC000E4A92 /* TripRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F6422A82B9FC000E4A92 /* TripRow.swift */; };
+		93E3F8342A8B39C100CF5955 /* TripDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E3F8332A8B39C100CF5955 /* TripDetailViewModel.swift */; };
 		93F08CF72A7396CE00DDA894 /* BnP_Travel_PackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F08CF62A7396CE00DDA894 /* BnP_Travel_PackerApp.swift */; };
-		93F08CF92A7396CE00DDA894 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F08CF82A7396CE00DDA894 /* ContentView.swift */; };
+		93F08CF92A7396CE00DDA894 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F08CF82A7396CE00DDA894 /* StartView.swift */; };
 		93F08CFB2A7396CF00DDA894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F08CFA2A7396CF00DDA894 /* Assets.xcassets */; };
 		93F08CFE2A7396CF00DDA894 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F08CFD2A7396CF00DDA894 /* Preview Assets.xcassets */; };
+		93F08D052A7418E000DDA894 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F08D042A7418E000DDA894 /* Extensions.swift */; };
+		93F08D0A2A787E6800DDA894 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F08D092A787E6800DDA894 /* PrimaryButton.swift */; };
+		93F08D142A7886E500DDA894 /* Travel November.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93F08D122A7886E500DDA894 /* Travel November.otf */; };
+		93F08D152A7886E500DDA894 /* Travel November.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93F08D132A7886E500DDA894 /* Travel November.ttf */; };
+		93F08D1C2A78CF6900DDA894 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F08D1B2A78CF6900DDA894 /* ProgressBar.swift */; };
+		93F08D712A79CC2700DDA894 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F08D702A79CC2700DDA894 /* Trip.swift */; };
+		93F08D762A7AC6BC00DDA894 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F08D752A7AC6BC00DDA894 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9359B0192A83226B000E4DDA /* NewTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTripView.swift; sourceTree = "<group>"; };
+		9359B01B2A834FFE000E4DDA /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
+		9359B01F2A856411000E4DDA /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
+		93845AD32A7B127200AB4360 /* BottomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabView.swift; sourceTree = "<group>"; };
+		93845AF52A7CD7DA00AB4360 /* GradientAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientAnimation.swift; sourceTree = "<group>"; };
+		93845B0A2A7D57CB00AB4360 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		938647AF2A8B08DB00D706DD /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		93A0F6332A7E2D5E000E4A92 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		93A0F63A2A8056A1000E4A92 /* TripManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManager.swift; sourceTree = "<group>"; };
+		93A0F63E2A82A19C000E4A92 /* NewTripForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTripForm.swift; sourceTree = "<group>"; };
+		93A0F6402A82A223000E4A92 /* TripList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripList.swift; sourceTree = "<group>"; };
+		93A0F6422A82B9FC000E4A92 /* TripRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripRow.swift; sourceTree = "<group>"; };
+		93E3F8332A8B39C100CF5955 /* TripDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailViewModel.swift; sourceTree = "<group>"; };
 		93F08CF32A7396CE00DDA894 /* BnP Travel Packer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BnP Travel Packer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F08CF62A7396CE00DDA894 /* BnP_Travel_PackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BnP_Travel_PackerApp.swift; sourceTree = "<group>"; };
-		93F08CF82A7396CE00DDA894 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93F08CF82A7396CE00DDA894 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		93F08CFA2A7396CF00DDA894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93F08CFD2A7396CF00DDA894 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93F08D042A7418E000DDA894 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		93F08D092A787E6800DDA894 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		93F08D122A7886E500DDA894 /* Travel November.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Travel November.otf"; sourceTree = "<group>"; };
+		93F08D132A7886E500DDA894 /* Travel November.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Travel November.ttf"; sourceTree = "<group>"; };
+		93F08D162A7887EC00DDA894 /* BnP-Travel-Packer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BnP-Travel-Packer-Info.plist"; sourceTree = SOURCE_ROOT; };
+		93F08D1B2A78CF6900DDA894 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		93F08D702A79CC2700DDA894 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		93F08D752A7AC6BC00DDA894 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +69,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93A0F6372A7E2F55000E4A92 /* FirebaseFirestore in Frameworks */,
+				93A0F6392A7E2F55000E4A92 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93845AD52A7C2D1800AB4360 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				93A0F63A2A8056A1000E4A92 /* TripManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		93F08CEA2A7396CE00DDA894 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +104,18 @@
 		93F08CF52A7396CE00DDA894 /* BnP Travel Packer */ = {
 			isa = PBXGroup;
 			children = (
+				93A0F6332A7E2D5E000E4A92 /* GoogleService-Info.plist */,
+				93845AD52A7C2D1800AB4360 /* Managers */,
+				93F08D162A7887EC00DDA894 /* BnP-Travel-Packer-Info.plist */,
 				93F08CF62A7396CE00DDA894 /* BnP_Travel_PackerApp.swift */,
-				93F08CF82A7396CE00DDA894 /* ContentView.swift */,
+				93F08D5C2A7997EA00DDA894 /* Models */,
+				93F08D0B2A787F8900DDA894 /* Views */,
+				93F08D062A77789100DDA894 /* Components */,
 				93F08CFA2A7396CF00DDA894 /* Assets.xcassets */,
+				93F08D112A78869600DDA894 /* Fonts */,
 				93F08CFC2A7396CF00DDA894 /* Preview Content */,
+				93F08D042A7418E000DDA894 /* Extensions.swift */,
+				93845AF52A7CD7DA00AB4360 /* GradientAnimation.swift */,
 			);
 			path = "BnP Travel Packer";
 			sourceTree = "<group>";
@@ -65,6 +126,51 @@
 				93F08CFD2A7396CF00DDA894 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		93F08D062A77789100DDA894 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				93F08D092A787E6800DDA894 /* PrimaryButton.swift */,
+				93F08D1B2A78CF6900DDA894 /* ProgressBar.swift */,
+				93A0F63E2A82A19C000E4A92 /* NewTripForm.swift */,
+				93A0F6402A82A223000E4A92 /* TripList.swift */,
+				93A0F6422A82B9FC000E4A92 /* TripRow.swift */,
+				9359B01B2A834FFE000E4DDA /* TitleRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		93F08D0B2A787F8900DDA894 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93F08CF82A7396CE00DDA894 /* StartView.swift */,
+				93F08D752A7AC6BC00DDA894 /* ContentView.swift */,
+				93845AD32A7B127200AB4360 /* BottomTabView.swift */,
+				9359B0192A83226B000E4DDA /* NewTripView.swift */,
+				9359B01F2A856411000E4DDA /* TripDetailView.swift */,
+				938647AF2A8B08DB00D706DD /* Launch Screen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93F08D112A78869600DDA894 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				93F08D122A7886E500DDA894 /* Travel November.otf */,
+				93F08D132A7886E500DDA894 /* Travel November.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		93F08D5C2A7997EA00DDA894 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93F08D702A79CC2700DDA894 /* Trip.swift */,
+				93845B0A2A7D57CB00AB4360 /* LocationService.swift */,
+				93E3F8332A8B39C100CF5955 /* TripDetailViewModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +189,10 @@
 			dependencies = (
 			);
 			name = "BnP Travel Packer";
+			packageProductDependencies = (
+				93A0F6362A7E2F55000E4A92 /* FirebaseFirestore */,
+				93A0F6382A7E2F55000E4A92 /* FirebaseFirestoreSwift */,
+			);
 			productName = "BnP Travel Packer";
 			productReference = 93F08CF32A7396CE00DDA894 /* BnP Travel Packer.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +221,9 @@
 				Base,
 			);
 			mainGroup = 93F08CEA2A7396CE00DDA894;
+			packageReferences = (
+				93A0F6352A7E2F55000E4A92 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 93F08CF42A7396CE00DDA894 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +238,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938647B02A8B08DB00D706DD /* Launch Screen.storyboard in Resources */,
 				93F08CFE2A7396CF00DDA894 /* Preview Assets.xcassets in Resources */,
 				93F08CFB2A7396CF00DDA894 /* Assets.xcassets in Resources */,
+				93A0F6342A7E2D5E000E4A92 /* GoogleService-Info.plist in Resources */,
+				93F08D142A7886E500DDA894 /* Travel November.otf in Resources */,
+				93F08D152A7886E500DDA894 /* Travel November.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +254,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F08CF92A7396CE00DDA894 /* ContentView.swift in Sources */,
+				9359B01C2A834FFE000E4DDA /* TitleRow.swift in Sources */,
+				93F08CF92A7396CE00DDA894 /* StartView.swift in Sources */,
+				93A0F6432A82B9FC000E4A92 /* TripRow.swift in Sources */,
+				93A0F6412A82A223000E4A92 /* TripList.swift in Sources */,
+				93845B0B2A7D57CB00AB4360 /* LocationService.swift in Sources */,
+				9359B01A2A83226B000E4DDA /* NewTripView.swift in Sources */,
+				93A0F63B2A8056A1000E4A92 /* TripManager.swift in Sources */,
+				9359B0202A856411000E4DDA /* TripDetailView.swift in Sources */,
+				93F08D712A79CC2700DDA894 /* Trip.swift in Sources */,
+				93F08D052A7418E000DDA894 /* Extensions.swift in Sources */,
+				93F08D762A7AC6BC00DDA894 /* ContentView.swift in Sources */,
+				93F08D0A2A787E6800DDA894 /* PrimaryButton.swift in Sources */,
+				93845AD42A7B127200AB4360 /* BottomTabView.swift in Sources */,
+				93845AF62A7CD7DA00AB4360 /* GradientAnimation.swift in Sources */,
+				93E3F8342A8B39C100CF5955 /* TripDetailViewModel.swift in Sources */,
 				93F08CF72A7396CE00DDA894 /* BnP_Travel_PackerApp.swift in Sources */,
+				93F08D1C2A78CF6900DDA894 /* ProgressBar.swift in Sources */,
+				93A0F63F2A82A19C000E4A92 /* NewTripForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,15 +397,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BnP Travel Packer/Preview Content\"";
 				DEVELOPMENT_TEAM = 544BZ3S27B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BnP-Travel-Packer-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires your location in order to work";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app requires your location in order to work";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,15 +431,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BnP Travel Packer/Preview Content\"";
 				DEVELOPMENT_TEAM = 544BZ3S27B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BnP-Travel-Packer-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires your location in order to work";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app requires your location in order to work";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -339,6 +482,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		93A0F6352A7E2F55000E4A92 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		93A0F6362A7E2F55000E4A92 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93A0F6352A7E2F55000E4A92 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		93A0F6382A7E2F55000E4A92 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93A0F6352A7E2F55000E4A92 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 93F08CEB2A7396CE00DDA894 /* Project object */;
 }
