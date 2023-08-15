@@ -22,6 +22,7 @@
 		93A0F6412A82A223000E4A92 /* TripList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F6402A82A223000E4A92 /* TripList.swift */; };
 		93A0F6432A82B9FC000E4A92 /* TripRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0F6422A82B9FC000E4A92 /* TripRow.swift */; };
 		93E3F8342A8B39C100CF5955 /* TripDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E3F8332A8B39C100CF5955 /* TripDetailViewModel.swift */; };
+		93E3F8382A8B503C00CF5955 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 93E3F8372A8B503C00CF5955 /* .gitignore */; };
 		93F08CF72A7396CE00DDA894 /* BnP_Travel_PackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F08CF62A7396CE00DDA894 /* BnP_Travel_PackerApp.swift */; };
 		93F08CF92A7396CE00DDA894 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F08CF82A7396CE00DDA894 /* StartView.swift */; };
 		93F08CFB2A7396CF00DDA894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F08CFA2A7396CF00DDA894 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 		93A0F6402A82A223000E4A92 /* TripList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripList.swift; sourceTree = "<group>"; };
 		93A0F6422A82B9FC000E4A92 /* TripRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripRow.swift; sourceTree = "<group>"; };
 		93E3F8332A8B39C100CF5955 /* TripDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailViewModel.swift; sourceTree = "<group>"; };
+		93E3F8372A8B503C00CF5955 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		93F08CF32A7396CE00DDA894 /* BnP Travel Packer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BnP Travel Packer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F08CF62A7396CE00DDA894 /* BnP_Travel_PackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BnP_Travel_PackerApp.swift; sourceTree = "<group>"; };
 		93F08CF82A7396CE00DDA894 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				93F08CFC2A7396CF00DDA894 /* Preview Content */,
 				93F08D042A7418E000DDA894 /* Extensions.swift */,
 				93845AF52A7CD7DA00AB4360 /* GradientAnimation.swift */,
+				93E3F8372A8B503C00CF5955 /* .gitignore */,
 			);
 			path = "BnP Travel Packer";
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				938647B02A8B08DB00D706DD /* Launch Screen.storyboard in Resources */,
+				93E3F8382A8B503C00CF5955 /* .gitignore in Resources */,
 				93F08CFE2A7396CF00DDA894 /* Preview Assets.xcassets in Resources */,
 				93F08CFB2A7396CF00DDA894 /* Assets.xcassets in Resources */,
 				93A0F6342A7E2D5E000E4A92 /* GoogleService-Info.plist in Resources */,
